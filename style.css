@@ -38,3 +38,5 @@ h2{
     font-size: x-large;
     margin-top: 0;
 }
+@media (max-width: 480px) { ... }
+
