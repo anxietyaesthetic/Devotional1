@@ -1,3 +1,22 @@
+@media print{
+    body, .card, .herosection{
+        -webkit-print-color-adjust: exact; /* For Chrome, Safari, Edge */
+        print-color-adjust: exact;  
+    }
+}
+@media (max-width: 767px) {
+    body {
+        width: 100%; /* Spans full width on mobile */
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto; /* Centers the desktop container */
+    }
+}
 body{
     background-color: #2E2E2E;
     color: #808080;
@@ -13,6 +32,7 @@ h1{
     text-decoration-color: darkslateblue;
     box-shadow: 5px 5px 5px #6b8e23;
     background-color: cornsilk;
+    border-radius: 8px;
 }
 .herosection{
     background-color: #924a28;
