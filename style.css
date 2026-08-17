@@ -1,3 +1,9 @@
+@media (width: 440px) and (height: 956px) {
+    /* Styles specifically for iPhone 17 Pro Max standing up */
+    body {
+        background-color: #2c2c2a;
+    }
+}
 body{
     background-color: #2c2c2a;
 }
@@ -38,5 +44,5 @@ h2{
     font-size: x-large;
     margin-top: 0;
 }
-@media (max-width: 480px) { ... }
+
 
