@@ -1,61 +1,52 @@
-/* Target devices up to 440px wide and 956px high */
-@media screen and (max-width: 440px) and (max-height: 956px) {
-  body {
-    width: 100vw;
-    height: 100dvh; /* Dynamic viewport height for mobile browsers */
-    margin: 0;
-    padding: 16px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    max-width: 408px; /* 440px minus 32px total horizontal padding */
-  }
-}
-
 body{
-    background-color: #2c2c2a;
+    background-color: #2E2E2E;
+    color: #808080;
+    font-family: sans-serif;
 }
 h1{
     font-size: xx-large;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: #c98350;
+    font-weight: bold;
+    color: #b86a3d;
+    text-decoration: underline;
+    text-decoration-color: darkslateblue;
+    box-shadow: 5px 5px 5px #6b8e23;
+    background-color: cornsilk;
 }
 .herosection{
-    background-color: rgba(103, 14, 148, 1);
+    background-color: #924a28;
     margin: auto;
     width: 850px;
-    padding: 8px;
+    padding: 15px;
     justify-content: center;
     border: 3px solid black;
     border-radius: 8px;
-    
+    color: #FFFFFF;
+    accent-color: #ffda61;
+}
+.herosection h1{
+    border-radius: 8px;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 15px;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .card{
-    background-color: #F9F962;
-    padding: 8px;
+    background-color: #FFFFFF;
+    padding: 15px;
     justify-content: center;
-    border: 3px solid black;
+    border: 3px solid;
     border-radius: 8px;
     margin: auto;
     text-align: justify;
     width: 800px;
-
+    border-color: black;
+    accent-color: #ffda61;
+    color: #808080
 }
-h2{
-    margin-bottom: 5px;
-    gap: 0;
-    padding: 5px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-align: left;
-    font-size: x-large;
-    margin-top: 0;
+.card h2{
+    color: #a0522d;
 }
-
-
