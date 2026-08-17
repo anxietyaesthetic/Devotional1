@@ -1,7 +1,10 @@
-@media (width: 440px) and (height: 956px) {
-    /* Styles specifically for iPhone 17 Pro Max standing up */
+@media screen and (min-width: 412px) and (max-width: 460px) and (orientation: portrait) {
     body {
-        background-color: #2c2c2a;
+        font-size: 17px; /* Marginally upscale typography for larger canvas */
+    }
+    
+    .container {
+        padding: 0 20px; /* Generous breathing room on edges */
     }
 }
 body{
